@@ -6,6 +6,8 @@ from sklearn.preprocessing import OneHotEncoder
 import os
 import pickle
 
+
+
 # Function to load machine learning components
 def load_components_func(fp):
     #To load the machine learning components saved to re-use in the app
@@ -122,3 +124,58 @@ with st.form(key="information",clear_on_submit=True):
         st.balloons()
         # Display the predictions with custom styling
         st.success(f"Predicted Sales: {predictions[0]:,.2f}",icon="✅")
+
+
+# Add a sidebar to the app
+st.sidebar.title("Documentation and Help")
+
+# Create a navigation menu within the sidebar
+menu = st.sidebar.radio("Navigation", ["Introduction", "Getting Started", "User Guide", "Troubleshooting", "Feedback and Support"])
+# Introduction
+if menu == "Introduction":
+    st.title("Introduction")
+    st.write("Welcome to the Documentation and Help section of the Sales Prediction App. This section provides detailed instructions on how to use and understand the app effectively.")
+# Getting Started
+elif menu == "Getting Started":
+    st.title("Getting Started")
+    st.write("Before you can use the app, make sure you have Python and the required dependencies installed. Follow these steps:")
+    st.code("""
+    git clone https://github.com/yourusername/sales-prediction-app.git
+    cd sales-prediction-app
+    pip install -r requirements.txt
+    streamlit run app.py
+    """, language="bash")
+
+# User Guide
+elif menu == "User Guide":
+    st.title("User Guide")
+    st.write("The app requires the following input parameters for making sales predictions:")
+    st.write("- **Date:** Select the date for which the sales took place.")
+    st.write("- **On Promotion:** Choose whether the product is on promotion (1 for Yes, 0 for No).")
+    st.write("- **Number of Transactions:** Enter the number of transactions for the product.")
+    st.write("- **Oil Price (dcoilwtico):** Input the oil price for the selected date.")
+    st.write("- **Product Category:** Choose the product category from the available options.")
+    st.write("- **State:** Select the state where the store is located.")
+    st.write("- **City:** Choose the city where the store is located.")
+    st.write("- **Weekly Sales Day:** Enter the day of the week for which the sales occured (0 for Sunday, 1 for Monday, ..., 6 for Saturday).")
+
+# Troubleshooting
+elif menu == "Troubleshooting":
+    st.title("Troubleshooting")
+    st.write("Encountering issues while using the app? Here are some common troubleshooting steps:")
+    st.write("- **Missing Data:** Ensure that you have provided values for all required input parameters.")
+    st.write("- **Dependency Issues:** Make sure you have installed the necessary packages using the instructions provided in the installation section.")
+    st.write("- **Scikit--learn:** The specified version of sckit--learn for this app is version 1.2.2")
+
+# Feedback and Support
+elif menu == "Feedback and Support":
+    st.title("Feedback and Support")
+    st.write("We value your feedback! If you have any questions, feedback, or issues, feel free to reach out to us via email:  newtonkimathi20@gmail.com or by [creating an issue](https://github.com/Newton23-nk/Sales-Prediction-App/issues) on the GitHub repository.")
+    st.write("Connect With Me on LinkedIn:")
+    st.write("[LinkedIn](https://www.linkedin.com/in/KimathiNewton/)") 
+    st.write("Thank you for using the Sales Prediction App! We hope it provides valuable insights for your business decisions.")
+    
+
+
+
+
