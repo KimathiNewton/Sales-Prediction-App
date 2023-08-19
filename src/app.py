@@ -40,7 +40,7 @@ st.write("""Welcome to Corporation Favorita Sales Prediction app!
      """)
 
 #Image
-st.image("https://images.startups.co.uk/wp-content/uploads/2023/05/sales-forecast.jpg?width=709&height=460&fit=crop")
+st.image("https://www.artefact.com//wp-content/uploads/2021/03/ARTICLE.jpeg")
 with st.form(key="information",clear_on_submit=True):
     date = st.date_input("Date")
     Promotion = st.selectbox("On promotion,0 for No and 1 for Yes", [0, 1])
