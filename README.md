@@ -1,5 +1,8 @@
 # Streamlit Sales Prediction App
 
+# Article 
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@newtonkimathi20/1"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@newtonkimathi20/1" alt="Recent article #1"></a>
+
 # Description
 The "SalesForecastApp" is a user-friendly Streamlit web application designed to forecast store sales for thousands of products across different Favorita store locations. This app leverages powerful machine learning models to accurately predict product demand, enabling optimized inventory management and improved operational efficiency for Corporation Favorita, a leading Ecuadorian-based grocery retailer.
 The SalesForecastApp empowers inventory managers, supply chain managers, and store managers to make data-driven decisions, optimize inventory levels, and meet customer demand effectively. With accurate demand forecasting and insightful visualizations, Corporation Favorita gains a competitive edge, increases customer satisfaction, and maximizes sales revenue.
