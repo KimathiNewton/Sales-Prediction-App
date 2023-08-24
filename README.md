@@ -26,4 +26,47 @@ You need Python3 on your system to setup this app. Then you can clone this repo 
 
 ``````
  
+# Getting Started
+To begin using the Sales Prediction App, follow these steps:
 
+Clone the Repository:
+``````
+
+``````
+# Install Dependencies:
+Install the required Python packages using the following command:
+``````
+pip install -r requirements.txt
+
+``````
+# Run the App:
+Launch the app using Streamlit:
+``````
+streamlit run app.py
+
+``````
+
+# User Guide
+The app requires the following input parameters for generating sales predictions:
+
+* Date: Select the date for which the sales prediction is needed.
+* On Promotion: Choose whether the product is on promotion (1 for Yes, 0 for No).
+* Number of Transactions: Enter the number of transactions for the product.
+* Oil Price (dcoilwtico): Input the oil price for the selected date.
+* Product Category: Choose the product category from the available options.
+* State: Select the state where the store is located.
+* City: Choose the city where the store is situated.
+* Weekly Sales Day: Enter the day of the week for which the sales occurred (0 for Sunday, 1 for Monday, ..., 6 for Saturday).
+
+# Feedback and Support
+We value your feedback and questions! To reach out, please use the following methods:
+
+Email: newtonkimathi20@gmail.com
+GitHub Issues: Feel free to create an issue in the GitHub repository.
+Connect with us on LinkedIn: 
+
+Your Name : Newton Kimathi
+Thank you for using the Sales Prediction App! We trust it will empower your business decisions with valuable insights
+
+# Pretrained Model and Analysis
+To better understand the modeling and analysis behind the app, you can explore the Analysis and Modeling directory. It contains detailed information about the data preprocessing, feature engineering, model training, and evaluation that contributed to the creation of the app's predictive capabilities.
