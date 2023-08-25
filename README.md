@@ -14,6 +14,10 @@ The SalesForecastApp empowers inventory managers, supply chain managers, and sto
  # App Interface
  ![Interface of the app](Images/Interface.png)
 
+ ![Inputs](Images/Inputs.png)
+ 
+ ![Prediction](Images\Prediction.png)
+ 
  # Setup
 You need Python3 on your system to setup this app. Then you can clone this repo and being at the repo's root :: streamlit sales prediction app> ... follow the steps below:
 * Windows
