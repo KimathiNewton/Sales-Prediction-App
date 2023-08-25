@@ -31,7 +31,7 @@ To begin using the Sales Prediction App, follow these steps:
 
 Clone the Repository:
 ``````
-
+https://github.com/Newton23-nk/Sales-Prediction-App.git
 ``````
 # Install Dependencies:
 Install the required Python packages using the following command:
@@ -58,15 +58,15 @@ The app requires the following input parameters for generating sales predictions
 * City: Choose the city where the store is situated.
 * Weekly Sales Day: Enter the day of the week for which the sales occurred (0 for Sunday, 1 for Monday, ..., 6 for Saturday).
 
-# Feedback and Support
-We value your feedback and questions! To reach out, please use the following methods:
-
-Email: newtonkimathi20@gmail.com
-GitHub Issues: Feel free to create an issue in the GitHub repository.
-Connect with us on LinkedIn: 
-
-Your Name : Newton Kimathi
-Thank you for using the Sales Prediction App! We trust it will empower your business decisions with valuable insights
 
 # Pretrained Model and Analysis
-To better understand the modeling and analysis behind the app, you can explore the Analysis and Modeling directory. It contains detailed information about the data preprocessing, feature engineering, model training, and evaluation that contributed to the creation of the app's predictive capabilities.
+To better understand the modeling and analysis behind the app, you can explore the Analysis and Modeling directory [here](https://github.com/Newton23-nk/Time-Series-Analysis). It contains detailed information about the data preprocessing, feature engineering, model training, and evaluation that contributed to the creation of the app's predictive capabilities.
+
+# Feedback and Support
+
+Email: newtonkimathi20@gmail.com
+GitHub Issues: Feel free to create an issue in the [GitHub repository]().
+Connect with us on LinkedIn: 
+
+# Author
+Newton Kimathi
